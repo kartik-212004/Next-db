@@ -1,9 +1,16 @@
 import Image from "next/image"
+import p1 from "@/Images/template.png"
 export function Signin() {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center items-center">
       <div className="max-w-screen-xl bg-white shadow rounded-lg p-6 sm:p-12 flex flex-col items-center">
-       
+        <Image
+          src={p1.src}
+          alt="Logo"
+          width={128}
+          height={128}
+          className="w-32"
+        />
         <h1 className="text-2xl xl:text-3xl font-extrabold mb-8">Sign up</h1>
 
         <div className="flex flex-col items-center w-full">

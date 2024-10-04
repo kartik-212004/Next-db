@@ -52,7 +52,7 @@ export function Signup() {
 
           <p className="text-center text-gray-500 mt-6">
             Already have an account?{" "}
-            <a href="#" className="text-blue-500 hover:underline">
+            <a href="/signin" className="text-blue-500 hover:underline">
               Log in
             </a>
           </p>
