@@ -5,6 +5,7 @@ import { useState } from "react"
 export function Signin() {
   const [mail, setMail] = useState("")
   const [password, setPassword] = useState("")
+  console.log(mail, password)
   return (
     <div className="min-h-screen bg-gray-100 text-gray-900 flex justify-center items-center">
       <div className="max-w-screen-xl bg-white shadow rounded-lg p-6 sm:p-12 flex flex-col items-center">

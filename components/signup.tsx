@@ -4,6 +4,8 @@ import { useState } from "react"
 export function Signup() {
   const [mail, setMail] = useState("")
   const [password, setPassword] = useState("")
+  console.log(mail, password)
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md border border-gray-200">
