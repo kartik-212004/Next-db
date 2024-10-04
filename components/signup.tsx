@@ -1,4 +1,9 @@
+"use client"
+import { useState } from "react"
+
 export function Signup() {
+  const [mail, setMail] = useState("")
+  const [password, setPassword] = useState("")
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-lg w-full max-w-md border border-gray-200">
@@ -16,6 +21,9 @@ export function Signup() {
               placeholder="Enter your email"
               className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
+              onChange={(e) => {
+                setMail(e.target.value)
+              }}
             />
           </div>
 
@@ -28,6 +36,9 @@ export function Signup() {
               placeholder="Enter your password"
               className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
               required
+              onChange={(e) => {
+                setPassword(e.target.value)
+              }}
             />
           </div>
 
