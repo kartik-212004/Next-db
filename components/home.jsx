@@ -1,10 +1,8 @@
 'use client'
 import { useState } from "react";
-
 export function Home() {
     const [currentLocation, setCurrentLocation] = useState("");
     const [enterLocation, setEnterLocation] = useState("");
-
     return (
         <div className="min-h-screen bg-gray-100">
             {/* Header */}
