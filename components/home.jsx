@@ -6,15 +6,6 @@ export function Home() {
     return (
         <div className="min-h-screen bg-gray-100">
             {/* Header */}
-            <header className="bg-black text-white flex justify-between items-center p-4">
-                <div className="text-lg font-bold">OLA</div>
-                <nav className="space-x-4">
-                    <a href="#" className="hover:underline">Ola Electric</a>
-                    <a href="#" className="hover:underline">Krutrim</a>
-                    <a href="#" className="hover:underline">Outstation</a>
-                </nav>
-                <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Book an Ola Cab</button>
-            </header>
 
             {/* Main Content */}
             <main className="flex flex-col items-center justify-center">
