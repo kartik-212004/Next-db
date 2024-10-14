@@ -19,3 +19,7 @@ bun dev
  ```bash
  docker run backend
 ```
+docker pull command
+```bash
+docker pull kartik200421/next
+```
